@@ -1,0 +1,23 @@
+{
+  "name": "filesearchme/Spider",
+  "description": "Spider for filesearch.me",
+  "license": "MIT",
+  "keywords": ["filesearch"],
+  "authors": [
+    {
+      "name": "FileSearch.me",
+      "email": "filesearch.me@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FileSearchme\\Spider\\": "src"
+    }
+  }
+}
